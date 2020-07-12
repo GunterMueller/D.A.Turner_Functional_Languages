@@ -1,0 +1,4 @@
+test -f $1/makefile && cd $1 && make -s $2
+exit 0
+#usage: trymake dir target
+#performs `make target' in dir if dir/makefile exists

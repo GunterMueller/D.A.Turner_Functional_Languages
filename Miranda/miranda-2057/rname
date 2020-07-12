@@ -1,0 +1,3 @@
+echo mira-`cat miralib/.version`-`uname -m`-`uname -s`
+
+#for last part: `uname -s` | $OSTYPE | uname -o
